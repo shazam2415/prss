@@ -1,0 +1,23 @@
+# Python / Backend
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.pytest_cache/
+backend/alembic/versions/*
+!backend/alembic/versions/.gitkeep
+
+# Node / Frontend (already has its own .gitignore, but good to have here too)
+frontend/node_modules/
+frontend/dist/
+
+# Environments and Secrets
+.env
+frontend/.env
+backend/.env
+
+# Local Docker volumes
+postgres_data/
+
+# OS Files
+.DS_Store
+Thumbs.db
